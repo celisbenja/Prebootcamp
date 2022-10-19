@@ -1,0 +1,17 @@
+h1{
+    color: rgb(255, 255, 255);
+    background-color: black;
+}
+span{
+    color: aqua;
+}
+h2{
+    background-color: rgb(74, 12, 145);
+    color: aliceblue;
+    text-align: center;
+}
+h3{
+    text-decoration: underline;
+    background-color: rgb(122, 255, 255);
+    text-align: right;
+}
