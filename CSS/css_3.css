@@ -1,31 +1,40 @@
-.div{
-    padding: 5px;
+.container{
+    width: 950px;
+    background-color: silver;
+    margin: 0px auto;
+}
+.top-nav {
+    height: 150px;
+    background-color: green;
     margin: 10px;
 }
-.search{
-    padding: 5px;
+.side-nav {
+    height: 300px;
+    width: 200px;
+    background-color: blue;
     margin: 10px;
-    width: 125px;
-    border-color: aqua;
-    color: aqua;
-    border-radius: 25px;
 }
-.mas{
-    width: 50px;
-    height: 50px;
-    background-color: aqua;
-    border-color: aqua;
-    color: white;
-    border-radius: 25px;
+.main {
+    height: 400px;
+    width: 700px;
+    background-color: red;
+    margin: 10px;
 }
-.account{
-    height: 40px;
-    width: 150px;
-    border: black solid;
-    background-color: rgba(0, 85, 255);
-    color: white;
-    box-shadow: 3px, 4px, 1px, 1px black;
-
+.sub-content {
+    height: 200px;
+    width: 210px;
+    background-color: yellow;
+    margin: 10px;
+}
+#advertisement {
+    height: 120px;
+    width: 660px;
+    background-color: purple;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+.row {
+    display: flex;
 }
 
 
