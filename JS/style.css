@@ -1,126 +1,107 @@
 * {
-    padding: 0;
     margin: 0;
-    outline:solid rgb(0, 0, 0) 2px
+    padding: 0;
 }
 
 body {
+    font-family: 'Roboto', sans-serif;
     background-color: #f3f3f3;
-    font-family: 'Montserrat', sans-serif;
+}
+
+a { 
+    color: #085394; 
+}
+
+.container {
+    width: 1000px;
+    margin: 0 auto;
 }
 
 .top {
-    background-color: #333;
-    height: 75px;
-    border-top: 5px solid rebeccapurple;
-    color: #fff;
+    background-color: #ccc;
+    height: 60px;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.title {
+    font-size: 3.2rem;
 }
 
 .search {
-    padding: 5px 10px;
+    flex: 1;
     font-size: 1.2rem;
-    width: 100%;
+    padding: 5px 10px;
     margin: 0 100px;
 }
 
 .btn {
-    background-color: rebeccapurple;
-    color: #fff;
-    width: 120px;
-    height: 40px;
+    font-size: 1.2rem;
+    padding: 5px 15px;
     border: 2px solid #000;
     box-shadow: 4px 4px #000;
-    font-size: 1rem;
     cursor: pointer;
 }
 
-.nav-container, .flex-container {
-    width: 1080px;
-    margin: 0 auto;
-    display: flex;
+.login {
+    background-color: #2b78e4;
+    color: #fff;
 }
 
-.nav-container {
-    justify-content: space-between;
-    align-items: center;
-    height: inherit;
+.row { 
+    display: flex; 
 }
 
-.flex-container {
-    padding: 20px;
+.flex-2 { 
+    flex: 2; 
+}
+
+.flex-1 { 
+    flex: 1; 
+    margin-left: 30px;
+}
+
+.box {
     background-color: #fff;
+    margin-top: 30px;
+    padding: 30px;
+    border: 2px solid #999;
 }
 
-.col-l {
-    flex: 2;
-}
-
-.col-r {
-    flex: 1;
-    margin-left: 20px;
-}
-
-.placeholder {
-    margin-bottom: 20px;
-    width: 100%;
-}
-
-.placeholder svg {
-    border-radius: 10px;
-}
-
-.row {
+.definition {
     display: flex;
-    align-items: flex-start;
+    align-items: center;
     justify-content: space-between;
 }
 
-.user {
-    margin: 20px 0;
-    display: flex;
-    align-items: center;
+.left {
+    flex: 1;
+    text-align: center;
 }
 
-.start h1 {
-    margin-bottom: 10px;
-}
-
-.start h3 {
-    color: #333;
-    font-weight: 400;
-}
-
-.avatar-s {
-    height: 64px;
-}
-
-.user-name {
-    margin-left: 10px;
-    color: rebeccapurple;
-    font-size: 1.2rem;
-    font-weight: 900;
+.left p {
+    margin: 10px 0;
     font-size: 1.2rem;
 }
 
-.sub-header {
-    font-size: 1.5rem;
-    font-weight: 900;
-    padding-bottom: 10px;
-    border-bottom: 2px solid #999;
+.like {
+    background-color: #ffd966;
 }
 
-.video-small {
-    display: flex;
-    align-items: center;
-    margin: 20px 0;
+.definition-text {
+    flex: 3;
+    margin-left: 20px;
+    font-size: 1.4rem;
 }
 
-.vid-s {
-    width: 170px;
-    margin-right: 10px;
+.box h2 {
+    font-size: 1.7rem;
 }
 
-.video-title {
-    font-size: 1.2rem;
-    font-weight: 900;
+.add {
+    background-color: #93c47d;
+    width: 100%;
+    margin-top: 20px;
 }

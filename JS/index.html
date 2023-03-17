@@ -1,65 +1,56 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>VideoLab</title>
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet"> 
+    <title>Dojonary</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-
-    <!-- top navigation -->
-    <div class="top">
-        <div class="nav-container">
-            <h1>Dojonary</h1>
-            <input type="text" placeholder="Search" name="query" class="search">
-            <button class="btn">Login</button>
+    <div class="container">
+        <div class="top">
+            <h1 class="title">Dojonary</h1>
+            <input type="text" name="search" placeholder="Search" class="search">
+            <button class="btn login" onclick="login(this)">Login</button>
         </div>
-    </div>
-
-    <!-- main content -->
-    <div class="flex-container">
-
-        <!-- left column -->
-        <div class="col-l">
-
-            <!-- this is a placeholder replace it with a real video -->
-            <figure class="placeholder">
-                <svg style="text-anchor:middle;" width="720" height="400" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 720x400" preserveAspectRatio="xMidYMid slice" focusable="false">
-                    <title>Placeholder</title>
-                    <rect width="100%" height="100%" fill="#868e96"></rect>
-                    <text x="50%" y="50%" dy=".3em" fill="#dee2e6" >Replace Me!</text>
-                </svg>
-            </figure>
-
-            <!-- video info -->
-            <div class="row">
-                <div class="start">
-                    <h1></h1>
-                    <h3></h3>
-                    <div class="user">
-                        <img src="assets/user.png" alt="user-circle" class="avatar-s">
-                        <span class="user-name"></span>
+        <div class="row">
+            <div class="flex-2">
+                <div class="box definition">
+                    <div class="left">
+                        <h1>ninja</h1>
+                        <p><em>noun</em></p>
+                        <p>Plural: <em>ninjas</em></p>
+                        <button class="btn like" onclick="message()">13 likes</button>
                     </div>
+                    <p class="definition-text">A practitioner skilled in the <a href="#">Japanese</a> art of <a
+                            href="#">ninjutsu</a></p>
                 </div>
-                <button class="btn">Subscribe</button>
+                <div class="box definition">
+                    <div class="left">
+                        <h1>ninja</h1>
+                        <p><em>noun</em></p>
+                        <p>Plural: <em>ninjas</em></p>
+                        <button class="btn like" onclick="message()">37 likes</button>
+                    </div>
+                    <p class="definition-text">A <a href="#">programmer</a> who breaks down problems with <a
+                            href="#">zen</a>-like focus</p>
+                </div>
             </div>
-
+            <div class="flex-1">
+                <div class="box">
+                    <h2>Dojonary is defined by YOU</h2>
+                    <button class="btn add" onclick="hide(this)">Add Definition</button>
+                </div>
+            </div>
         </div>
-
-        <!-- right column -->
-        <div class="col-r">
-
-            <h3 class="sub-header">Up Next</h3>
-
-
-        </div>
-
     </div>
-
     <script src="script.js"></script>
 </body>
+
 </html>
