@@ -1,4 +1,3 @@
-console.log("page loaded...");
 const video = document.getElementById('myVideo');
 
 video.addEventListener('mouseover', () => {
@@ -7,5 +6,4 @@ video.addEventListener('mouseover', () => {
 
 video.addEventListener('mouseout', () => {
   video.pause();
-  video.currentTime = 0;
 });
