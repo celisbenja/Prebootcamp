@@ -1,0 +1,74 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+.content{
+   
+}
+
+
+.nav{
+    align-items: center;
+    color: grey;
+    background-color: rgb(219, 219, 219);
+    display: flex;
+}
+
+.nav img{
+    width: 10%;
+
+}
+
+.nav input{
+    width: 20%;
+    height: 20%;
+    margin-left: 30%;
+    border-top: 2px solid color gray;
+    border-bottom: transparent;
+    border-radius: 5px;
+    padding: 0 20px;
+
+}
+
+.list{
+    background-color:rgb(219, 219, 219) ;
+    display: flex;
+}
+
+.DW{
+    color:orangered ;
+
+}
+
+.boxe{
+    border: 1px solid gray;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.boxi{
+    width: 30%;
+    
+    background-color: rgb(214, 214, 214);
+}
+
+.caja{
+    width: 15rem;
+    height: 10rem;
+    background-image: url("__MACOSX/monitor.png");
+    background-size: 100%;
+}
+
+
+.boxi h5{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(0, 88, 221);
+}
+
+.boxes{
+    display: flex;
+    justify-content: space-between;
+}
+
