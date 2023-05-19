@@ -23,3 +23,31 @@
     
     
 }
+
+.content-1{
+    border: 3px solid black;
+    margin: 4%;
+    padding: 3%;
+    width: 50%;
+    
+}
+
+.content-2{
+    border: 3px solid black;
+    margin: 4%;
+    padding: 3%;
+    width: 50%;
+}
+
+
+
+
+
+
+
+.button{
+    background-color: rgb(250, 217, 27);
+    
+     
+}
+
